@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #ffb7b7);
+    color: #000000;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  header h1 {
+    font-size: 2.5rem;
+    color: #000000;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #f9f9f9;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    margin: 30px 0;
+  }
+  
+  .gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .photos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .photos img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Message Section */
+  .message {
+    margin: 30px 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .message p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* Game Section */
+  .game-container {
+    margin: 30px 0;
+  }
+  
+  canvas {
+    background: #fff;
+    border: 2px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Victory Message */
+  #message {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  
+  #message h2 {
+    font-size: 2rem;
+    color: #e74c3c;
+  }
+  
+  /* Footer Section */
+  footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
